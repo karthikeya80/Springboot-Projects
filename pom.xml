@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.bank</groupId>
-	<artifactId>springboot1</artifactId>
+	<artifactId>FirstSpringBootProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot1</name>
+	<name>FirstSpringBootProject</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -20,7 +20,14 @@
 	<dependencies>
 
 		<!--
-		https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+		https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-logging -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+			<version>3.4.2</version>
+		</dependency>
+
+		<!--https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
