@@ -1,4 +1,4 @@
-package com.bank.springboot1;
+package com.bank.springbootbasicproject;
 
 public class App {
 	public static void main(String[] args) {
