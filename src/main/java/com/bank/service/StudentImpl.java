@@ -1,6 +1,7 @@
 package com.bank.service;
 
 import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,6 +20,10 @@ public class StudentImpl implements IStudent {
 
 	public List<Student> listOfStudentsData() {
 		logger.info("listOfStudentsData() started successfully...");
+		return null;
+	}
+	public Map< Integer,Student> mapOfStudentData(){
+		logger.info("mapOfStudentsData() started successfully...");
 		return null;
 	}
 
