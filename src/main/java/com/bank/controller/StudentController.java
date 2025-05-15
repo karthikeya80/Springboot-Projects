@@ -10,6 +10,8 @@ public class StudentController {
 	private static final Logger logger = LoggerFactory.getLogger(MyFirstSpringBootProject.class);
 
 	public void disply() {
+		
+		logger.debug("StudentController : disply method  ");
 
 	}
 }
