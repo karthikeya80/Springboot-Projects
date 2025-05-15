@@ -6,8 +6,10 @@ import org.slf4j.LoggerFactory;
 import com.bank.springbootbasicproject.MyFirstSpringBootProject;
 
 public class StudentController {
-	
+
 	private static final Logger logger = LoggerFactory.getLogger(MyFirstSpringBootProject.class);
 
+	public void disply() {
 
+	}
 }
